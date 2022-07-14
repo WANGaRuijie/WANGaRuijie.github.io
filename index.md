@@ -23,22 +23,33 @@ title: "Long (Tony) Lian's Personal Website"
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Publications <span class="h6">(*: equal contribution)</span></p>
-            {% assign sorted_publications = site.publications | sort:"date" %}
-            {% for publication in sorted_publications reversed %}
-                <p class="h5 publication-title">{{ publication.title }}</p>
-                <p> {{publication.authors | markdownify}} </p>
-                {% if publication.venue %}
-                    <p class="publication-venue"> {{publication.venue | markdownify}} </p>
-                {% endif %}
-                <p> {{publication.excerpt}} </p>
-                <!-- <p>{{ publication.content }}</p> -->
-                {% if publication.paper_url %}
-                <p> <a href="{{publication.paper_url}}">Paper</a> 
-                {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
-                {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
-                </p>
-                {% endif %}
-            {% endfor %}
+            <div class="container-fluid" style="padding: 0;">
+                {% assign sorted_publications = site.publications | sort:"date" %}
+                {% for publication in sorted_publications reversed %}
+                <div class="row">
+                    <div class="col">
+                        <p class="h5 publication-title">{{ publication.title }}</p>
+                        <span class="publication-authors">{{publication.authors | markdownify}}</span>
+                        {% if publication.venue %}
+                            <span class="publication-venue">{{publication.venue | markdownify}}</span>
+                        {% endif %}
+                        <p class="publication-excerpt"> {{publication.excerpt}} </p>
+                        <!-- <p>{{ publication.content }}</p> -->
+                        {% if publication.paper_url %}
+                        <p class="publication-links"> <a href="{{publication.paper_url}}">Paper</a> 
+                        {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
+                        {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
+                        </p>
+                        {% endif %}
+                    </div>
+                    {% if publication.cover_image %}
+                    <div class="col-4 d-none d-md-block align-self-center">
+                        <img class="cover-image" src="{{'/assets/cover_images/' | append: publication.cover_image | relative_url }}" />
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="row">
