@@ -41,6 +41,21 @@ title: "Long (Tony) Lian's Personal Website"
             {% endfor %}
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <p class="h4 section-title">Academic Services</p>
+            <p>
+                Reviewer for CVPR 2022/ECCV 2022
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="h4 section-title">Side Projects</p>
+            <p><a href="https://github.com/TonyLianLong/Rainbow">Rainbow</a>: An implementation of Rainbow algorithm with PARL reinforcement learning framework.</p>
+            <p><a href="https://github.com/TonyLianLong/AnimeGAN.js">AnimeGAN.js</a>: An implementation of AnimeGAN with tf.js, which converts photos to anime style online.</p>
+        </div>
+    </div>
 </main>
 
 <footer class="footer">
