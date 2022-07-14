@@ -63,7 +63,7 @@ title: "Long (Tony) Lian's Personal Website"
         <div class="row">
             <div class="col" style="text-align: center">
                 <span class="text-muted">
-                    Referencing templates and designs from <a href="https://github.com/HaozhiQi/haozhiqi.github.io/">Haozhi Qi</a> and <a href="https://github.com/jonbarron/website">Jon Barron</a>. The fonts are based on <i><a href="https://checkmyworking.com/cm-web-fonts/">Using Computer Modern on the web</a></i> project. Uses <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap</a>.
+                    Feel free to use the <a href="https://github.com/TonyLianLong/websitev2">source code</a> of this website. Referencing designs from <a href="https://github.com/HaozhiQi/haozhiqi.github.io/">Haozhi Qi</a> and <a href="https://github.com/jonbarron/website">Jon Barron</a>. The fonts are based on <a href="https://checkmyworking.com/cm-web-fonts/">this</a> project. Uses <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap</a>.
                 </span>
             </div>
         </div>
