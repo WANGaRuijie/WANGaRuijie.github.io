@@ -3,7 +3,7 @@ layout: default
 title: "Long (Tony) Lian's Personal Website"
 ---
 
-<main role="main" class="container-sm" style="max-width: 960px">
+<main role="main" class="container-sm" style="max-width: 1080px">
     <div class="row">
         <div class="col">
             <p class="h1 mt-5 page-title">
@@ -26,7 +26,7 @@ title: "Long (Tony) Lian's Personal Website"
             <div class="container-fluid" style="padding: 0;">
                 {% assign sorted_publications = site.publications | sort:"date" %}
                 {% for publication in sorted_publications reversed %}
-                <div class="row">
+                <div class="row" style="padding: 0.5rem 0">
                     <div class="col">
                         <p class="h5 publication-title">{{ publication.title }}</p>
                         <span class="publication-authors">{{publication.authors | markdownify}}</span>
@@ -40,11 +40,12 @@ title: "Long (Tony) Lian's Personal Website"
                         {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
                         {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
                         {% if publication.bibtex_url %}/ <a href="{{publication.bibtex_url}}">BibTex</a>{% endif %} 
+                        {% if publication.excerpt %}/ <a href="" class="tldr_btn" role="button">TL;DR</a>{% endif %} 
                         </p>
                         {% endif %}
                     </div>
                     {% if publication.cover_image %}
-                    <div class="col-4 d-none d-md-block align-self-center">
+                    <div class="col-5 d-none d-md-block align-self-center">
                         <img class="cover-image" src="{{'/assets/cover_images/' | append: publication.cover_image | relative_url }}" />
                     </div>
                     {% endif %}
