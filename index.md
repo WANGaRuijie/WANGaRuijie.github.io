@@ -26,7 +26,7 @@ title: "Long (Tony) Lian's Personal Website"
             <div class="container-fluid" style="padding: 0;">
                 {% assign sorted_publications = site.publications | sort:"date" %}
                 {% for publication in sorted_publications reversed %}
-                <div class="row" style="padding: 0.5rem 0">
+                <div class="row" style="padding: 0.25rem 0">
                     <div class="col">
                         <p class="h5 publication-title">{{ publication.title }}</p>
                         <span class="publication-authors">{{publication.authors | markdownify}}</span>
