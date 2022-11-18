@@ -39,6 +39,7 @@ title: "Long (Tony) Lian's Personal Website"
                         <p class="publication-links"> <a href="{{publication.paper_url}}">Paper</a> 
                         {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
                         {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
+                        {% if publication.bibtex_url %}/ <a href="{{publication.bibtex_url}}">BibTex</a>{% endif %} 
                         </p>
                         {% endif %}
                     </div>
@@ -56,7 +57,7 @@ title: "Long (Tony) Lian's Personal Website"
         <div class="col">
             <p class="h4 section-title">Academic Services</p>
             <p>
-                Reviewer for CVPR 2022/ECCV 2022
+                Reviewer for CVPR/ECCV
             </p>
         </div>
     </div>
