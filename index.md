@@ -13,7 +13,7 @@ title: "Long (Tony) Lian's Personal Website"
             <p class="h4 section-title" style="clear: right">About</p>
             {% capture bio %}{% include bio.md %}{% endcapture %}
             <p>{{ bio | markdownify }}</p>
-            <a href="mailto:longlian@berkeley.edu">Email</a> / <a href="{{ '/assets/cv.pdf' | relative_url }}">CV</a> / <a href="https://scholar.google.com/citations?user=eOLxyqUAAAAJ">Google Scholar</a> / 
+            <a href="mailto:longlian@berkeley.edu">Email</a> / <a href="https://scholar.google.com/citations?user=eOLxyqUAAAAJ">Google Scholar</a> / 
                 <a href="https://www.linkedin.com/in/longlian">LinkedIn</a> / <a href="https://github.com/TonyLianLong">Github</a>
         </div>
         <div class="col-auto d-none d-md-block">
