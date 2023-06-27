@@ -40,9 +40,10 @@ title: "Long (Tony) Lian's Personal Website"
                         {% if publication.blog_url %}/ <a href="{{publication.blog_url}}">Blog Post</a>{% endif %} 
                         {% if publication.project_page_url %}/ <a href="{{publication.project_page_url}}">Project Page</a>{% endif %} 
                         {% if publication.demo_url %}/ <a href="{{publication.demo_url}}">Demo</a>{% endif %} 
-                        {% if publication.demo_video_url %}/ <a href="{{publication.demo_video_url}}">Demo Video</a>{% endif %} 
                         {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
+                        {% if publication.demo_video_url %}/ <a href="{{publication.demo_video_url}}">Demo Video</a>{% endif %} 
                         {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
+                        {% if publication.poster %}/ <a href="{{'/assets/posters/' | append: publication.poster | relative_url }}">Poster</a>{% endif %} 
                         {% if publication.bibtex_url %}/ <a href="{{publication.bibtex_url}}">BibTex</a>{% endif %} 
                         {% if publication.excerpt %}/ <a href="" class="tldr_btn" role="button">TL;DR</a>{% endif %} 
                         </p>
