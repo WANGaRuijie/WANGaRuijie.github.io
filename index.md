@@ -37,6 +37,9 @@ title: "Long (Tony) Lian's Personal Website"
                         <!-- <p>{{ publication.content }}</p> -->
                         {% if publication.paper_url %}
                         <p class="publication-links"> <a href="{{publication.paper_url}}">Paper</a> 
+                        {% if publication.blog_url %}/ <a href="{{publication.blog_url}}">Blog Post</a>{% endif %} 
+                        {% if publication.project_page_url %}/ <a href="{{publication.project_page_url}}">Project Page</a>{% endif %} 
+                        {% if publication.demo_url %}/ <a href="{{publication.demo_url}}">Demo</a>{% endif %} 
                         {% if publication.demo_video_url %}/ <a href="{{publication.demo_video_url}}">Demo Video</a>{% endif %} 
                         {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
                         {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
