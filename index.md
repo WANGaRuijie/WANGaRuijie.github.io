@@ -14,7 +14,7 @@ title: "Long (Tony) Lian's Personal Website"
             {% capture bio %}{% include bio.md %}{% endcapture %}
             <p>{{ bio | markdownify }}</p>
             <a href="mailto:longlian@berkeley.edu">Email</a> / <a href="https://scholar.google.com/citations?user=eOLxyqUAAAAJ">Google Scholar</a> / 
-                <a href="https://www.linkedin.com/in/longlian">LinkedIn</a> / <a href="https://github.com/TonyLianLong">Github</a>
+                <a href="https://twitter.com/LongTonyLian">Twitter</a> / <a href="https://www.linkedin.com/in/longlian">LinkedIn</a> / <a href="https://github.com/TonyLianLong">Github</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
