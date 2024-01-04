@@ -22,6 +22,13 @@ title: "Long (Tony) Lian's Personal Website"
     </div>
     <div class="row">
         <div class="col">
+            <p class="note">
+                Recently, an identity attacker has been sending spam emails under my name through anonymous email addresses. <b>Please disregard the spam email if you happen to receive one of them.</b> I have already taken the necessary steps to report this fraudulent activity to the appropriate administrative team. I apologize for any confusion this may cause.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
             <p class="h4 section-title">Publications <span class="h6">(*: equal contribution)</span></p>
             <div class="container-fluid" style="padding: 0;">
                 {% assign sorted_publications = site.publications | sort:"date" %}
