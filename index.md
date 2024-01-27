@@ -40,7 +40,7 @@ title: "Long (Tony) Lian's Personal Website"
                         {% if publication.venue %}
                             <span class="publication-venue">{{publication.venue | markdownify}}</span>
                         {% endif %}
-                        <p class="publication-excerpt" style="display: none"> {{publication.excerpt}} </p>
+                        <div class="publication-excerpt" style="display: none">{{publication.excerpt | markdownify}}</div>
                         <!-- <p>{{ publication.content }}</p> -->
                         {% if publication.paper_url %}
                         <p class="publication-links"> <a href="{{publication.paper_url}}">Paper</a> 
