@@ -21,6 +21,7 @@ title: "Wang Ruijie's Personal Website"
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
         </div>
     </div>
+    {% comment %}
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Publications <span class="h6">(*: equal contribution)</span></p>
@@ -77,6 +78,7 @@ title: "Wang Ruijie's Personal Website"
             <p><a href="https://github.com/TonyLianLong/Rainbow">Rainbow</a>: An implementation of Rainbow algorithm with <a href="https://github.com/PaddlePaddle/PARL">PARL</a> reinforcement learning framework.</p>
         </div>
     </div>
+    {% endcomment %}
 </main>
 
 <footer class="footer">
@@ -84,7 +86,7 @@ title: "Wang Ruijie's Personal Website"
         <div class="row">
             <div class="col" style="text-align: center">
                 <span class="text-muted">
-                    Feel free to use the <a href="https://github.com/TonyLianLong/websitev2">source code</a> of this website. References designs from <a href="https://github.com/HaozhiQi/haozhiqi.github.io/">Haozhi Qi</a> and <a href="https://github.com/jonbarron/website">Jon Barron</a>. The fonts are based on <a href="https://checkmyworking.com/cm-web-fonts/">this</a> project. Uses <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap</a>.
+                    The website is based on <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template<\a>
                 </span>
             </div>
         </div>
