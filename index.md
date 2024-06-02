@@ -82,11 +82,12 @@ title: "Wang Ruijie's Personal Website"
 </main>
 
 <footer class="footer">
+    <a href="https://info.flagcounter.com/ALa4"><img src="https://s01.flagcounter.com/count/ALa4/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_30/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
     <div class="container-sm">
         <div class="row">
             <div class="col" style="text-align: center">
                 <span class="text-muted">
-                    The website is based on <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template<\a>
+                    The website is based on <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template.<\a>
                 </span>
             </div>
         </div>
