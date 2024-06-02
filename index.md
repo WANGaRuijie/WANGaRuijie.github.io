@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Long (Tony) Lian's Personal Website"
+title: "Wang Ruijie's Personal Website"
 ---
 
 <main role="main" class="container-sm" style="max-width: 1080px">
@@ -8,23 +8,16 @@ title: "Long (Tony) Lian's Personal Website"
         <div class="col">
             <p class="h1 mt-5 page-title">
                 <img class="profile-img-small d-md-none" src="{{ '/assets/profile.jpg' | relative_url }}" />
-                <span style="clear: right">Long (Tony) Lian</span>
+                <span style="clear: right">Wang Ruijie</span>
             </p>
             <p class="h4 section-title" style="clear: right">About</p>
             {% capture bio %}{% include bio.md %}{% endcapture %}
             <p>{{ bio | markdownify }}</p>
-            <a href="mailto:longlian@berkeley.edu">Email</a> / <a href="https://scholar.google.com/citations?user=eOLxyqUAAAAJ">Google Scholar</a> / 
-                <a href="https://twitter.com/LongTonyLian">Twitter</a> / <a href="https://www.linkedin.com/in/longlian">LinkedIn</a> / <a href="https://github.com/TonyLianLong">Github</a>
+            <a href="mailto:ruijie.wang@connect.polyu.hk">Email</a> /  
+                 <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / <a href="https://github.com/WANGaRuijie">Github</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <p class="note">
-                Recently, an identity attacker has been sending spam emails under my name through anonymous email addresses. <b>Please disregard the spam email if you happen to receive one of them.</b> I have already taken the necessary steps to report this fraudulent activity to the appropriate administrative team. I apologize for any confusion this may cause.
-            </p>
         </div>
     </div>
     <div class="row">
