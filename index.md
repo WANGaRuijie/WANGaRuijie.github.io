@@ -86,7 +86,7 @@ title: "Wang Ruijie's Personal Website"
         <div class="row">
             <div class="col" style="text-align: center">
                 <span class="text-muted">
-                    The website is based on 
+                    The website is created on 2 June 2024. The website is based on 
                     <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template.</a>
                 </span>
             </div>
