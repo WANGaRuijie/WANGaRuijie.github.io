@@ -83,12 +83,12 @@ title: "Wang Ruijie's Personal Website"
 
 <footer class="footer">
     <div class="container-sm">
-        <div class="row d-flex align-items-center justify-content-center"> <!-- Use Bootstrap's Flexbox utility classes --> 
-            <div class="col text-center" style="margin-bottom: 15px;">
+        <div class="row" style="display: flex; justify-content: center; align-items: center;"> <!-- Add style for Flexbox arrangement directly in the tag -->
+            <div class="col text-center" style="margin-bottom: 0px; padding-bottom: 0px;"> <!-- Apply margins and padding directly in the tag -->
                 Since 2 June 2024. Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
             <div class="col text-center">
-                <div class="statics" style="width:100px; height:100px; margin:auto;"> <!-- Add margin:auto to center the item -->
+                <div class="statics" style="width:100px; height:100px; margin:auto; margin-top: 0px; padding-top: 0px;"> <!-- Apply margin:auto to center the item and manage other margins -->
                     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
                 </div>
             </div>
