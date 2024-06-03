@@ -84,10 +84,10 @@ title: "Wang Ruijie's Personal Website"
 <footer class="footer">
     <div class="container-sm">
         <div class="row">
-            <div class="col">
+            <div class="col" style="display: flex; justify-content: space-between; align-items: center;">
                 Since 2 June 2024. Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
-            <div class="statics">
+            <div class="statics" style="width:70px; height:70px;">
                 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
             </div>
         </div>
