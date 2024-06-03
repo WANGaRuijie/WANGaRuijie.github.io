@@ -88,11 +88,9 @@ title: "Wang Ruijie's Personal Website"
                 <span class="text-muted">
                     The website is created on 2 June 2024. The website is based on 
                     <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template.</a>
+                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
                 </span>
             </div>
         </div>
-    </div>
-    <div style="text-align: center;">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
     </div>
 </footer>
