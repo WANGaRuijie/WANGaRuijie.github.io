@@ -83,12 +83,14 @@ title: "Wang Ruijie's Personal Website"
 
 <footer class="footer">
     <div class="container-sm">
-        <div class="row">
-            <div class="col" style="align-items: center;">
+        <div class="row d-flex align-items-center justify-content-center"> <!-- Use Bootstrap's Flexbox utility classes --> 
+            <div class="col text-center" style="margin-bottom: 15px;">
                 Since 2 June 2024. Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
-            <div class="statics" style="width:100px; height:100px;">
-                <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
+            <div class="col text-center">
+                <div class="statics" style="width:100px; height:100px; margin:auto;"> <!-- Add margin:auto to center the item -->
+                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
+                </div>
             </div>
         </div>
     </div>
