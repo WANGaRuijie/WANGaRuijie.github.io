@@ -84,10 +84,12 @@ title: "Wang Ruijie's Personal Website"
 <footer class="footer">
     <div class="container-sm">
         <div class="row">
-            <div class="col" style="text-align: center">
-                <span class="text-muted">
+            <div class="col" style="display: flex; justify-content: center; align-items: center;">
+                <span class="text-muted" style="margin-right: 20px;">
                     The website is created on 2 June 2024. The website is based on 
                     <a href="https://github.com/TonyLianLong/websitev2">the remodeled LaTeX-style personal website template.</a>
+                </span>
+                <span>
                     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
                 </span>
             </div>
