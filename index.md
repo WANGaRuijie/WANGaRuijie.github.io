@@ -93,10 +93,6 @@ title: "Wang Ruijie's Personal Website"
         </div>
     </div>
     <div style="text-align: center;">
-        <a href="https://info.flagcounter.com/ALa4">
-            <img src="https://s01.flagcounter.com/count/ALa4/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_30/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" 
-                 alt="Flag Counter" 
-                 border="0">
-        </a>
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
     </div>
 </footer>
