@@ -85,7 +85,7 @@ title: "Wang Ruijie's Personal Website"
     <div class="container-sm">
         <div class="row">
             <div class="col">
-                Since 2 June 2024. Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a>
+                Since 2 June 2024. Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
             <div class="statics">
                 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
