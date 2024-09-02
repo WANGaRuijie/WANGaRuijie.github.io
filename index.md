@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wang Ruijie's Personal Website"
+title: "Wang Ruijie's Homepage"
 ---
 
 <main role="main" class="container-sm" style="max-width: 1080px">
