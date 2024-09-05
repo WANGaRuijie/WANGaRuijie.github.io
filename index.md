@@ -9,7 +9,7 @@ title: "Wang Ruijie's Homepage"
             <p class="h1 mt-5 page-title">
                 <img class="profile-img-small d-md-none" src="{{ '/assets/profile.jpg' | relative_url }}" />
                 <img class="chinese-name-img" src="{{ '/assets/Chinese Name.png' | relative_url }}" />
-                <span style="clear: right">Long (Tony) Lian</span>
+                <span style="clear: right">Wang Ruijie</span>
             </p>
             <p class="h4 section-title" style="clear: right">❈ About Me</p>
             {% capture bio %}{% include bio.md %}{% endcapture %}
