@@ -16,7 +16,7 @@ title: "Wang Ruijie's Homepage"
             <p>{{ bio | markdownify }}</p>
             <a href="mailto:ruijie.wang@connect.polyu.hk">Email</a> /  
                  <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / <a href="https://github.com/WANGaRuijie">GitHub</a> /
-            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (Jan 24, 2025)</a>
+            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (May 11, 2025)</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
