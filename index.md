@@ -8,7 +8,7 @@ title: "Wang Ruijie's Homepage"
         <div class="col">
             <p class="h1 mt-5 page-title">
                 <img class="profile-img-small d-md-none" src="{{ '/assets/profile.jpg' | relative_url }}" />
-                <img class="chinese-name-img" src="{{ '/assets/Chinese Name.png' | relative_url }}" />
+                <img class="chinese-name-img" src="{{ '/assets/chinese_name.png' | relative_url }}" />
                 <span style="clear: right; font-size: 38px; color: #00008B;">Wang Ruijie</span>
             </p>
             <p class="h4 section-title" style="clear: right">❈ About Me</p>
