@@ -6,10 +6,10 @@ title: "Wang Ruijie's Homepage"
 <main role="main" class="container-sm" style="max-width: 1080px">
     <div class="row">
         <div class="col">
-            <p class="h1 mt-5 page-title">
+            <p class="h1 mt-5 page-title d-flex align-items-center flex-wrap">
                 <img class="profile-img-small d-md-none" src="{{ '/assets/profile.jpg' | relative_url }}" />
-                <img class="chinese-name-img" src="{{ '/assets/chinese_name.png' | relative_url }}" />
-                <span style="clear: right; font-size: 38px; color: #00008B;">Wang Ruijie</span>
+                <span style="font-size: 38px; color: #273C83;">Wang Ruijie</span>
+                <img class="chinese-name-inline" src="{{ '/assets/chinese_name.png' | relative_url }}" />
             </p>
             <p class="h4 section-title" style="clear: right">❈ About Me</p>
             {% capture bio %}{% include bio.md %}{% endcapture %}
