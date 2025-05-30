@@ -22,7 +22,6 @@ title: "Wang Ruijie's Homepage"
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
         </div>
     </div>
-    {% comment %}
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Publications <span class="h6">(*: equal contribution)</span></p>
@@ -62,6 +61,7 @@ title: "Wang Ruijie's Homepage"
             </div>
         </div>
     </div>
+    {% comment %}
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Academic Services</p>
