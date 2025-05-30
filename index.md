@@ -22,9 +22,10 @@ title: "Wang Ruijie's Homepage"
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
         </div>
     </div>
+    <br />
     <div class="row">
         <div class="col">
-            <p class="h4 section-title">Publications <span class="h6">(*: equal contribution)</span></p>
+            <p class="h4 section-title">❈ Publications<span class="h6"></span></p>
             <div class="container-fluid" style="padding: 0;">
                 {% assign sorted_publications = site.publications | sort:"date" %}
                 {% for publication in sorted_publications reversed %}
@@ -86,7 +87,7 @@ title: "Wang Ruijie's Homepage"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on May 11, 2025. <br />
+                Since June 2, 2024. Last modified on May 30, 2025. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>
