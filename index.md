@@ -30,7 +30,7 @@ title: "Wang Ruijie's Homepage"
                 {% for publication in sorted_publications reversed %}
                 <div class="row" style="padding: 0.25rem 0">
                     <div class="col">
-                        <p class="h5 publication-title">{{ publication.title }}</p>
+                        <p class="h5 publication-title" style="color: #273C83;">{{ publication.title }}</p>
                         <span class="publication-authors">{{publication.authors | markdownify}}</span>
                         {% if publication.venue %}
                             <span class="publication-venue">{{publication.venue | markdownify}}</span>
