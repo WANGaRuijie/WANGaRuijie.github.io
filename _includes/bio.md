@@ -1,6 +1,6 @@
 I am a junior undergraduate student at the [Department of Computing](https://www.polyu.edu.hk/comp), [Hong Kong Polytechnic University](https://www.polyu.edu.hk) majoring in Computer Science with a minor in Applied Mathematics. In Summer 2023, I was an exchange student at [Technical University of Denmark](https://www.dtu.dk/). I also enjoyed my time at [Yali High School](https://www.yalechina.org/who-we-are) from 2019 to 2022. 
 
-My research interests center on theoretical computer science. Specifically, I am curious about the novel problems in **(1) economic mechanisms, (2) interpretability and efficiency of machine learning, (3) blockchains, privacy, and security, (4) distributed and concurrent computing** from algorithmic, logical, and systematic perspectives. 
+My research interests center on theoretical computer science. Specifically, I am curious about the novel problems in **(1) economic mechanisms, (2) interpretability and efficiency of machine learning, (3) blockchains, privacy, and security,** and **(4) distributed and concurrent computing** from algorithmic, logical, and systematic perspectives. 
 
 *<span style="color: #326DF4;">I wonder what insights we can obtain from the synergy among the different branches of theoretical computer science, and for which class of problems formal methods can provide robust support for algorithm design.</span>*
 
