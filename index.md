@@ -16,7 +16,7 @@ title: "Wang Ruijie's Homepage"
             <p>{{ bio | markdownify }}</p>
             <a href="mailto:ruijie.wang@connect.polyu.hk">Email</a> /  
                  <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / <a href="https://github.com/WANGaRuijie">GitHub</a> /
-            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (September 10, 2025)</a>
+            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (Nov 9, 2025)</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
@@ -87,7 +87,7 @@ title: "Wang Ruijie's Homepage"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on September 10, 2025. <br />
+                Since June 2, 2024. Last modified on Nov 9, 2025. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>
