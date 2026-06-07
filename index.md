@@ -95,6 +95,7 @@ title: "Wang Ruijie's Homepage"
         </div>
         <div class="row justify-content-center"> <!-- Create another row for the globe and use Bootstrap's class for centering the content -->
             <div class="col text-center">
+		So sad that clustrmap.com has shut down.
                 <div class="statics" style="width:100px; height:100px; margin: auto;"> <!-- Add margin:auto to center the globe -->
                     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9jCt5iZiY6zXourr8DKBF30cXTHyY5UMcQh9rnlozxA"></script>
                 </div>
