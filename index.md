@@ -18,7 +18,7 @@ title: "Wang Ruijie's Homepage"
                  <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / 
             <a href="https://scholar.google.com/citations?user=jv1-HXAAAAAJ">Google Scholar</a> /
             <a href="https://github.com/WANGaRuijie">GitHub</a> /
-            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (April 6, 2026)</a>
+            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (July 5, 2026)</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
