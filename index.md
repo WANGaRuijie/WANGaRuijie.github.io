@@ -14,7 +14,7 @@ title: "Wang Ruijie's Homepage"
             <p class="h4 section-title" style="clear: right">❈ About Me</p>
             {% capture bio %}{% include bio.md %}{% endcapture %}
             <p>{{ bio | markdownify }}</p>
-            <a href="mailto:ruijie.wang@connect.polyu.hk">Email</a> /  
+            <a href="mailto:wruijie@umich.edu">Email</a> /  
                  <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / 
             <a href="https://scholar.google.com/citations?user=jv1-HXAAAAAJ">Google Scholar</a> /
             <a href="https://github.com/WANGaRuijie">GitHub</a> /
@@ -40,19 +40,18 @@ title: "Wang Ruijie's Homepage"
                         {% endif %}
                         <div class="publication-excerpt" style="display: none">{{publication.excerpt | markdownify}}</div>
                         <!-- <p>{{ publication.content }}</p> -->
-                        {% if publication.paper_url %}
-                        <p class="publication-links"> <a href="{{publication.paper_url}}">Paper</a> 
-                        {% if publication.blog_url %}/ <a href="{{publication.blog_url}}">Blog Post</a>{% endif %} 
-                        {% if publication.project_page_url %}/ <a href="{{publication.project_page_url}}">Project Page</a>{% endif %} 
-                        {% if publication.demo_url %}/ <a href="{{publication.demo_url}}">Demo</a>{% endif %} 
-                        {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
-                        {% if publication.demo_video_url %}/ <a href="{{publication.demo_video_url}}">Demo Video</a>{% endif %} 
-                        {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
-                        {% if publication.poster %}/ <a href="{{'/assets/posters/' | append: publication.poster | relative_url }}">Poster</a>{% endif %} 
-                        {% if publication.bibtex_url %}/ <a href="{{publication.bibtex_url}}">BibTex</a>{% endif %} 
-                        {% if publication.excerpt %}/ <a href="" class="tldr_btn" role="button">TL;DR</a>{% endif %} 
+                        <p class="publication-links"> 
+                            {% if publication.paper_url %}<a href="{{publication.paper_url}}">Paper</a>{% endif %} 
+                            {% if publication.excerpt %}/ <a href="" class="tldr_btn" role="button">TL;DR</a>{% endif %} 
+                            {% if publication.blog_url %}/ <a href="{{publication.blog_url}}">Blog Post</a>{% endif %} 
+                            {% if publication.project_page_url %}/ <a href="{{publication.project_page_url}}">Project Page</a>{% endif %} 
+                            {% if publication.demo_url %}/ <a href="{{publication.demo_url}}">Demo</a>{% endif %} 
+                            {% if publication.video_url %}/ <a href="{{publication.video_url}}">Video</a>{% endif %} 
+                            {% if publication.demo_video_url %}/ <a href="{{publication.demo_video_url}}">Demo Video</a>{% endif %} 
+                            {% if publication.code_url %}/ <a href="{{publication.code_url}}">Code</a>{% endif %} 
+                            {% if publication.poster %}/ <a href="{{'/assets/posters/' | append: publication.poster | relative_url }}">Poster</a>{% endif %} 
+                            {% if publication.bibtex_url %}/ <a href="{{publication.bibtex_url}}">BibTex</a>{% endif %}                
                         </p>
-                        {% endif %}
                     </div>
                     {% if publication.cover_image %}
                     <div class="col-5 d-none d-md-block align-self-center">
@@ -64,15 +63,15 @@ title: "Wang Ruijie's Homepage"
             </div>
         </div>
     </div>
-    {% comment %}
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Academic Services</p>
             <p>
-                Reviewer for CVPR/ECCV/ICCV/NeurIPS
+                Reviewer for AAAI 2027.
             </p>
         </div>
     </div>
+    {% comment %}
     <div class="row">
         <div class="col">
             <p class="h4 section-title">Side Projects</p>
@@ -89,7 +88,7 @@ title: "Wang Ruijie's Homepage"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on July 5, 2026. <br />
+                Since June 2, 2024. Last modified on July 28, 2026. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>

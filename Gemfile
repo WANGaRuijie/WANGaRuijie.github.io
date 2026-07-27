@@ -6,3 +6,10 @@ source "https://rubygems.org"
 gem "jekyll"
 
 gem "webrick", "~> 1.7"
+
+gem "logger"
+gem "base64"
+gem "csv"
+gem "bigdecimal"
+gem "mutex_m"
+gem "benchmark"
