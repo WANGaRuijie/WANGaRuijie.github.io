@@ -67,7 +67,7 @@ title: "Wang Ruijie's Homepage"
         <div class="col">
             <p class="h4 section-title">Academic Services</p>
             <p>
-                Reviewer for AAAI 2027.
+                Looking for this.
             </p>
         </div>
     </div>
@@ -88,7 +88,7 @@ title: "Wang Ruijie's Homepage"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on July 28, 2026. <br />
+                Since June 2, 2024. Last modified on August 23, 2026. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>
