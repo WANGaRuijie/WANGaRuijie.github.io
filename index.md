@@ -41,7 +41,10 @@ title: "Wang Ruijie's Homepage"
                         <div class="publication-excerpt" style="display: none">{{publication.excerpt | markdownify}}</div>
                         <!-- <p>{{ publication.content }}</p> -->
                         <p class="publication-links"> 
-                            {% if publication.paper_url %}<a href="{{publication.paper_url}}">Paper</a>{% endif %} 
+                            {% if publication.pdf_url %}<a href="{{publication.pdf_url}}">PDF</a>{% endif %} 
+                            {% if publication.arxiv_url %}/ <a href="{{publication.arxiv_url}}">arXiv</a>{% endif %} 
+                            {% if publication.ssrn_url %}/ <a href="{{publication.ssrn_url}}">SSRN</a>{% endif %} 
+                            {% if publication.acm_url%}/ <a href="{{publication.acm_url}}">ACM Digital Library</a>{% endif %}
                             {% if publication.excerpt %}/ <a href="" class="tldr_btn" role="button">TL;DR</a>{% endif %} 
                             {% if publication.blog_url %}/ <a href="{{publication.blog_url}}">Blog Post</a>{% endif %} 
                             {% if publication.project_page_url %}/ <a href="{{publication.project_page_url}}">Project Page</a>{% endif %} 
