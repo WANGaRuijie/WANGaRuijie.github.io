@@ -27,6 +27,14 @@ title: "Wang Ruijie's Homepage"
     <br />
     <div class="row">
         <div class="col">
+            <p class="h4 section-title">EcomCrypt</p>
+            <p>
+                Try <a href="/EcomCrypt/">EcomCrypt</a>, a collection of research papers in the interplay of Economics, Theoretical Computer Science, Blockchain, Cryptography, Security, Finance, and Operations Research!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
             <p class="h4 section-title">❈ Publications<span class="h6"></span></p>
             <div class="container-fluid" style="padding: 0;">
                 {% assign sorted_publications = site.publications | sort:"date" %}
