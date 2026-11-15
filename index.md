@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wang Ruijie's Homepage"
+title: "Ruijie's Spot"
 ---
 
 <main role="main" class="container-sm" style="max-width: 1080px">
@@ -8,7 +8,7 @@ title: "Wang Ruijie's Homepage"
         <div class="col">
             <p class="h1 mt-5 page-title d-flex align-items-center flex-wrap">
                 <img class="profile-img-small d-md-none" src="{{ '/assets/profile.jpg' | relative_url }}" />
-                <span style="font-size: 38px; color: #273C83;">Wang Ruijie</span>
+                <span style="font-size: 38px; color: #273C83;">Wang, Ruijie</span>
                 <img class="chinese-name-inline" src="{{ '/assets/chinese_name.png' | relative_url }}" />
             </p>
             <p class="h4 section-title" style="clear: right">❈ About Me</p>
@@ -27,7 +27,7 @@ title: "Wang Ruijie's Homepage"
     <br />
     <div class="row">
         <div class="col">
-            <p class="h4 section-title">EcomCrypt</p>
+            <p class="h4 section-title">❈ EcomCrypt</p>
             <p>
                 Try <a href="/EcomCrypt/">EcomCrypt</a>, a collection of research papers in the interplay of Economics, Theoretical Computer Science, Blockchain, Cryptography, Security, Finance, and Operations Research!
             </p>
@@ -76,9 +76,9 @@ title: "Wang Ruijie's Homepage"
     </div>
     <div class="row">
         <div class="col">
-            <p class="h4 section-title">Academic Services</p>
+            <p class="h4 section-title">❈ Academic Services</p>
             <p>
-                Looking for this.
+                Looking forward to this.
             </p>
         </div>
     </div>
@@ -99,7 +99,7 @@ title: "Wang Ruijie's Homepage"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on November 1, 2026. <br />
+                Since June 2, 2024. Last modified on November 14, 2026. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>
