@@ -18,7 +18,7 @@ title: "Ruijie's Spot"
                  <a href="https://www.linkedin.com/in/ruijie-wang-780406260/">LinkedIn</a> / 
             <a href="https://scholar.google.com/citations?user=jv1-HXAAAAAJ">Google Scholar</a> /
             <a href="https://github.com/WANGaRuijie">GitHub</a> /
-            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (August 26, 2026)</a>
+            <a href="{{ '/Curriculum-Vitae-Wang-Ruijie.pdf' | relative_url }}">Curriculum Vitae (November 19, 2026)</a>
         </div>
         <div class="col-auto d-none d-md-block">
             <img class="profile-img" src="{{ '/assets/profile.jpg' | relative_url }}" />
@@ -99,7 +99,7 @@ title: "Ruijie's Spot"
     <div class="container-sm">
         <div class="row justify-content-center"> <!-- Bootstrap's class for centering the content -->
             <div class="col text-center" style="margin-bottom: 9px;"> <!-- Use margin-bottom to create space between the text and the globe -->
-                Since June 2, 2024. Last modified on November 14, 2026. <br />
+                Since June 2, 2024. Last modified on November 19, 2026. <br />
                 Based on <a href="https://github.com/TonyLianLong/websitev2"> the remodeled LaTeX-style template.</a><br />
             </div>
         </div>
