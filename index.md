@@ -78,7 +78,7 @@ title: "Ruijie's Spot"
         <div class="col">
             <p class="h4 section-title">❈ Academic Services</p>
             <p>
-                Looking forward to this.
+                <a href="https://caaw.io/2027/">CAAW 2027</a>@<a href="https://fc27.ifca.ai/">FC 2027</a>
             </p>
         </div>
     </div>
